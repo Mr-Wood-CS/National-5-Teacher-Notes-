@@ -1,0 +1,20 @@
+Run the PDF converter with this tested one-line command:
+
+cd /Applications/XAMPP/xamppfiles/htdocs/MKDocs-Template/_tools/Mark-it-Down && .venv/bin/python pdf-to-md.py
+
+
+Alternatively, activate the environment first by running each line separately:
+
+cd /Applications/XAMPP/xamppfiles/htdocs/MKDocs-Template/_tools/Mark-it-Down
+source .venv/bin/activate
+python pdf-to-md.py
+
+
+To run the PowerPoint converter after activation:
+
+python pptx-to-md.py
+
+
+When finished, leave the environment with:
+
+deactivate

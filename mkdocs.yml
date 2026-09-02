@@ -1,0 +1,174 @@
+site_name: National 5 Computer Science
+
+nav:
+  - Home: 'index.md'
+  - Software Design and Development:
+    - Development Methodologies: '01-sdd/1.1-development-methodologies/1.1-development-methodologies.md'
+    - Analysis:
+      - Explanation: '01-sdd/1.2-analysis/1.2-analysis.md'
+      - Tasks: '01-sdd/1.2-analysis/1.2.1-analysis-tasks.md'
+    - Design:
+      - Explanation: '01-sdd/1.3-design/1.3.1-explanation.md'
+      - Data Types and Structures:
+        - Explanation: '01-sdd/1.3-design/1.3.2-data-types-and-structures.md'
+        - Tasks: '01-sdd/1.3-design/1.3.2.1-data-types and-structures-tasks.md'
+      - Design Notation:
+        - Explanation: '01-sdd/1.3-design/1.3.3-design-notation-explanation.md'
+        - Sequencing:
+          - Explanation: '01-sdd/1.3-design/1.3.3.1-sequencing.md'
+          - Tasks: '01-sdd/1.3-design/1.3.3.1.1-sequencing-tasks.md'
+        #- Selection: '01-sdd/1.3-design/1.3.3.2-selection.md'
+        #- Iteration: '01-sdd/1.3-design/1.3.3.3-iteration.md'
+      # - Wireframes: '01-sdd/1.3-design/1.3.6-wireframes.md'
+    - Implementation:
+      - Input/Output:
+        - Overview: '01-sdd/1.4-implementation/input-output/5.1_Input_and_Output.md'
+        - Comments: '01-sdd/1.4-implementation/input-output/5.1.1-comments.md'
+        - Variables: '01-sdd/1.4-implementation/input-output/5.1.2-variables.md'
+        - Arrays: '01-sdd/1.4-implementation/input-output/5.1.3-arrays.md'
+        - Data Types: '01-sdd/1.4-implementation/input-output/5.1.4-data-types.md'
+        - Output: '01-sdd/1.4-implementation/input-output/5.1.5-output.md'
+        - Input: '01-sdd/1.4-implementation/input-output/5.1.6-input.md'
+        - Inputting Numbers: '01-sdd/1.4-implementation/input-output/5.1.7-inputting-numbers.md'
+        - Calculations: '01-sdd/1.4-implementation/input-output/5.1.8-calculations.md'
+        - String Concatenation: '01-sdd/1.4-implementation/input-output/5.1.9-string-concatenation.md'
+        - Tasks: 
+          - Input/Output: '01-sdd/1.4-implementation/input-output/5.1.10-input-output(t).md'
+          - Variables: '01-sdd/1.4-implementation/input-output/5.1.11-variables(t).md'
+          - Arrays: '01-sdd/1.4-implementation/input-output/5.1.12-arrays(t).md'
+          - Numbers: '01-sdd/1.4-implementation/input-output/5.1.12-working-with-numbers(t).md'
+        - Putting It All Together:
+          - Overview: '01-sdd/1.4-implementation/input-output/5.1.14-putting-it-all-together.md'
+          - School Trip Calculator: '01-sdd/1.4-implementation/input-output/5.1.14.1-school-trip-calculator.md'
+          - Class Test Summary: '01-sdd/1.4-implementation/input-output/5.1.14.2-class-test-summary.md'
+          - Bake Sale Takings: '01-sdd/1.4-implementation/input-output/5.1.14.3-bake-sale-takings.md'
+  - Computer Systems:
+    - Data Representation:
+      - Understanding Binary: '02-cs/2.1-data-representation/2.1-number-representation.md'
+      - Binary to Decimal Conversion: '02-cs/2.1-data-representation/2.1.1-binary-to-decimal.md'
+      - Decimal to Binary Conversion: '02-cs/2.1-data-representation/2.1.2-decimal-to-binary.md'
+      - ASCII:
+        - Explanation: '02-cs/2.1-data-representation/2.1.3-ascii.md'
+        - Tasks: '02-cs/2.1-data-representation/2.1.3.1-ascii-tasks.md'
+  - Database Design and Development:
+    - Database Structure:
+      - What Makes a Database?: '03-ddd/3.1-databse-structure/3.1.1-database-structure.md'
+      - Relational Databases: '03-ddd/3.1-databse-structure/3.1.2-relational-databases.md'
+      - Entities: '03-ddd/3.1-databse-structure/3.1.3-entities.md'
+      - Attributes: '03-ddd/3.1-databse-structure/3.1.4-attributes.md'
+      - Field Types: '03-ddd/3.1-databse-structure/3.1.5-field-types.md'
+      - Primary Keys: '03-ddd/3.1-databse-structure/3.1.6-primary-keys.md'
+      - Foreign Keys: '03-ddd/3.1-databse-structure/3.1.7-foreign-keys.md'
+      - How Tables Link: '03-ddd/3.1-databse-structure/3.1.8-how-tables-link.md'
+      - Tasks: '03-ddd/3.1-databse-structure/3.1.9-database-structure-tasks.md'
+    - Analysis:
+      - Explanation: '03-ddd/3.2-analysis/3.2-analysis.md'
+      - Worked Example: '03-ddd/3.2-analysis/3.2.1-worked-example.md'
+      - Tasks: '03-ddd/3.2-analysis/3.2.1-analysis-tasks.md'
+    - Design:
+      - Data Dictionaries:
+        - Explanation: '03-ddd/3.3-design/3.3.1-Data-Dictionaries.md'
+        - Field Names and Data Types: '03-ddd/3.3-design/3.3.1.1-field-names-and-data-types.md'
+        - Field Sizes: '03-ddd/3.3-design/3.3.1.2-field-sizes.md'
+        - Primary and Foreign Keys: '03-ddd/3.3-design/3.3.1.3-primary-and-foreign-keys.md'
+        - Validation: '03-ddd/3.3-design/3.3.1.4-validation.md'
+        - Worked Example: '03-ddd/3.3-design/3.3.1.5-worked-example.md'
+      - Database Relationships: '03-ddd/3.3-design/3.3.2-db-relationships.md'
+      - Query Design: '03-ddd/3.3-design/3.3.3-query-design.md'
+      - General Data Protection Regulation: '03-ddd/3.3-design/3.3.4-general-data-protection-regulation.md'
+    - Implementation:
+      - SQL Select:
+        - Explanation: '03-ddd/3.4-implementation/3.4.1-sql-select.md'
+        - Tasks: '03-ddd/3.4-implementation/3.4.1.1-select-tasks.md'
+      - SQL Insert/Update/Delete:
+        - Insert: '03-ddd/3.4-implementation/3.4.2-sql-insert.md'
+        - Update: '03-ddd/3.4-implementation/3.4.2.2-sql-update.md'
+        - Delete: '03-ddd/3.4-implementation/3.4.2.3-sql-delete.md'
+        - Tasks: '03-ddd/3.4-implementation/3.4.2.1-insert-update-delete-tasks.md'
+      - SQL Equi-Joins:
+        - Explanation: '03-ddd/3.4-implementation/3.4.3-sql-equi-joins.md'
+        - Tasks: '03-ddd/3.4-implementation/3.4.4-equi-join-tasks.md'
+    - Testing: '03-ddd/3.5-testing/3.5.1-db-testing.md'
+    - Evaluation: '03-ddd/3.6-evaluation/3.6.1-db-evaluation.md'
+    - Practice Questions:
+      - Bishra's Bakery:
+        - Overview: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.4-bishras-bakery.md'
+        - SELECT and WHERE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.4.1-select-from-where.md'
+      - Videoblogger:
+        - Overview: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1-videoblogger.md'
+        - SELECT and WHERE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1.1-select-from-where.md'
+        - SELECT and ORDER BY: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1.2-select-order-by.md'
+        - INSERT, UPDATE and DELETE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1.3-insert-update-delete.md'
+        - Equi-Joins: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1.4-equi-joins.md'
+      - After School Clubs: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.2-after-school-clubs.md'
+      - Scottish Golfers: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.3-scottish-golfers.md'
+        
+        
+    
+      
+markdown_extensions:
+      - admonition
+      - pymdownx.details
+      - def_list
+      - pymdownx.critic
+      - pymdownx.caret
+      - pymdownx.keys
+      - pymdownx.mark
+      - pymdownx.tilde
+      - attr_list
+      - md_in_html    
+      - pymdownx.emoji:
+          emoji_index: !!python/name:material.extensions.emoji.twemoji
+          emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      - pymdownx.superfences
+      - pymdownx.tabbed:
+          alternate_style: true
+      - pymdownx.highlight:
+          use_pygments: true
+          anchor_linenums: true
+          line_spans: __span
+          pygments_lang_class: true
+      - pymdownx.inlinehilite
+      - pymdownx.snippets
+      
+theme:
+  name: material
+  font:
+    text: Quicksand
+  palette:
+    scheme: default
+    primary: blue
+    accent: deep orange
+  icon:
+    logo: material/code-tags
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.indexes 
+    - navigation.path
+    - navigation.footer
+    - navigation.tabs
+plugins:
+  - search
+  - glightbox
+
+copyright: Copyright &copy; 2025 Pixel&Wood Computer Science Tuition
+
+extra_css:
+  - Styles/extra.css
+    

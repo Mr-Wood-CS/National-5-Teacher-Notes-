@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+
+# Local Python environments and runtime session files
+.venv/
+:memory:.ses

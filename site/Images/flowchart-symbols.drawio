@@ -1,0 +1,43 @@
+<mxfile>
+  <diagram id="flowchart-symbols" name="Flowchart Symbols">
+    <mxGraphModel dx="393" dy="355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="520" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start-end-text" value="Shows where a flowchart starts or ends" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=18;fontFamily=quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dquicksand;" parent="1" vertex="1">
+          <mxGeometry x="300" y="125" width="540" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="input-output-shape" value="Input / Output" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;fillColor=#ffffff;fontSize=18;fontFamily=quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dquicksand;" parent="1" vertex="1">
+          <mxGeometry x="75" y="220" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="input-output-text" value="Shows data being entered or displayed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=18;fontFamily=quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dquicksand;" parent="1" vertex="1">
+          <mxGeometry x="300" y="225" width="540" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="process-shape" value="Process" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=18;fontFamily=quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dquicksand;" parent="1" vertex="1">
+          <mxGeometry x="90" y="320" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="process-text" value="Shows a task or calculation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=18;fontFamily=quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dquicksand;" parent="1" vertex="1">
+          <mxGeometry x="300" y="325" width="540" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-shape" value="Decision" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=18;fontFamily=quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dquicksand;" parent="1" vertex="1">
+          <mxGeometry x="110" y="415" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-text" value="Shows a question or condition with different paths" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=18;fontFamily=quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dquicksand;" parent="1" vertex="1">
+          <mxGeometry x="300" y="425" width="540" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-shape" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;strokeWidth=3;fontFamily=quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dquicksand;" parent="1" edge="1">
+          <mxGeometry width="80" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="95" as="sourcePoint" />
+            <mxPoint x="850" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-label" value="Arrow = flow direction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontFamily=quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dquicksand;" parent="1" vertex="1">
+          <mxGeometry x="690" y="55" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4yHliKWaJuixyEqNFP5F-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=quicksand&quot; face=&quot;quicksand&quot; style=&quot;font-size: 18px;&quot;&gt;Start/End&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="125" y="125" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
