@@ -16,7 +16,7 @@
     
     
       
-        <title>Design - National 5 Computer Science</title>
+        <title>Test - National 5 Computer Science</title>
       
     
     
@@ -141,11 +141,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#design" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -178,7 +173,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Design
+              Test
             
           </span>
         </div>
@@ -3579,70 +3574,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#turning-analysis-into-design" class="md-nav__link">
-    <span class="md-ellipsis">
-      Turning Analysis into Design
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#modular-design" class="md-nav__link">
-    <span class="md-ellipsis">
-      Modular Design
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#higher-design-techniques-you-need-to-know" class="md-nav__link">
-    <span class="md-ellipsis">
-      Higher Design Techniques You Need to Know
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#worked-design-example" class="md-nav__link">
-    <span class="md-ellipsis">
-      Worked Design Example
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#data-types-and-data-structures" class="md-nav__link">
-    <span class="md-ellipsis">
-      Data Types and Data Structures
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#summary" class="md-nav__link">
-    <span class="md-ellipsis">
-      Summary
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -3658,221 +3589,9 @@
 
 
 
-<h1 id="design">Design</h1>
-<div class="admonition info">
-<p class="admonition-title">What You Need to Know</p>
-<p>For Higher Software Design and Development, you must be able to:</p>
-<ul>
-<li>identify suitable <strong>data types</strong> and <strong>data structures</strong></li>
-<li>read and create designs using <strong>structure diagrams</strong> and <strong>pseudocode</strong></li>
-<li>show the <strong>top-level design</strong></li>
-<li>show the <strong>data flow</strong> in and out of sub-programs</li>
-<li>show <strong>refinements</strong> where more detail is needed</li>
-<li>design user interfaces using <strong>wireframes</strong></li>
-</ul>
-</div>
-<p>Design is the planning stage of software development. It turns the analysis into a clear plan for how the solution will be built.</p>
-<p>In the Higher assignment, candidates are expected to produce design documentation before implementation begins. Good design helps ensure that the final solution meets all functional requirements and makes the implementation stage easier.</p>
-<p>At Higher level, design is mainly about answering four questions:</p>
-<table>
-<thead>
-<tr>
-<th>Question</th>
-<th>Design feature</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>What are the main parts of the solution?</td>
-<td>Top-level design</td>
-</tr>
-<tr>
-<td>What information is passed between those parts?</td>
-<td>Data flow</td>
-</tr>
-<tr>
-<td>How does each main part work?</td>
-<td>Refinements</td>
-</tr>
-<tr>
-<td>What data and interface will the program use?</td>
-<td>Data types, structures, and wireframes</td>
-</tr>
-</tbody>
-</table>
-<h2 id="turning-analysis-into-design">Turning Analysis into Design</h2>
-<p>Analysis describes the problem by identifying the:</p>
-<ul>
-<li>purpose</li>
-<li>scope</li>
-<li>boundaries</li>
-<li>functional requirements</li>
-<li>inputs, processes, and outputs</li>
-</ul>
-<p>Design uses this information to plan how the solution will be organised and built.</p>
-<p>For example, if the analysis says a program must read pupil marks, calculate percentages, find the highest percentage, and display the result, these requirements can become top-level design steps:</p>
-<table>
-<thead>
-<tr>
-<th>Step</th>
-<th>Top-level design</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Get results</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Calculate percentages</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Find position of pupil with top mark</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Display pupil with top mark</td>
-</tr>
-</tbody>
-</table>
-<p>These main steps form the <strong>top-level design</strong>. Later, data flow and refinements are added to make the design detailed enough to implement.</p>
-<h2 id="modular-design">Modular Design</h2>
-<p>A <strong>module</strong> is a section of a program that carries out one clear task.</p>
-<p>Each module should perform one specific task. This makes the design easier to understand, test, and maintain.</p>
-<p>Breaking a program into modules makes it easier to:</p>
-<ul>
-<li>implement</li>
-<li>test</li>
-<li>debug</li>
-<li>maintain</li>
-<li>improve later</li>
-</ul>
-<p>In the final program, modules are usually implemented as procedures or functions.</p>
-<h2 id="higher-design-techniques-you-need-to-know">Higher Design Techniques You Need to Know</h2>
-<table>
-<thead>
-<tr>
-<th>Technique</th>
-<th>Best for showing</th>
-<th>Commonly used for</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Structure diagram</strong></td>
-<td>The modular breakdown of the program</td>
-<td>Top-level design</td>
-</tr>
-<tr>
-<td><strong>Pseudocode</strong></td>
-<td>The algorithmic steps and refinements</td>
-<td>Refinements and algorithms</td>
-</tr>
-<tr>
-<td><strong>Wireframe</strong></td>
-<td>The layout of the user interface</td>
-<td>Screen and interface design</td>
-</tr>
-</tbody>
-</table>
-<p>Structure diagrams and pseudocode can both show top-level design, data flow, and refinements. They simply present the same design information in different ways.</p>
-<h2 id="worked-design-example">Worked Design Example</h2>
-<p>The example below shows how a simple requirement develops into a design that is ready to implement.</p>
-<table>
-<thead>
-<tr>
-<th>Design stage</th>
-<th>Example</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Analysis requirement</td>
-<td>Calculate and display the average test score</td>
-</tr>
-<tr>
-<td>Top-level design</td>
-<td><code>1 Get scores</code><br><code>2 Calculate average</code><br><code>3 Display average</code></td>
-</tr>
-<tr>
-<td>Data flow</td>
-<td><code>GetScores() -&gt; scores</code><br><code>CalculateAverage(scores) -&gt; average</code><br><code>DisplayAverage(average)</code></td>
-</tr>
-<tr>
-<td>Refinement</td>
-<td><code>FOR count &lt;- 1 TO 3</code><br><code>INPUT score[count]</code><br><code>END FOR</code></td>
-</tr>
-</tbody>
-</table>
-<p>The top-level design gives the main modules, the data flow shows what each module passes on, and the refinement adds detail for one module.</p>
-<h2 id="data-types-and-data-structures">Data Types and Data Structures</h2>
-<p>Once the main design is clear, you should choose suitable data types and structures.</p>
-<p>These choices affect validation, storage, and how easily the data can be processed.</p>
-<table>
-<thead>
-<tr>
-<th>Data item</th>
-<th>Suitable type or structure</th>
-<th>Reason</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Pupil name</td>
-<td>String</td>
-<td>Stores text</td>
-</tr>
-<tr>
-<td>Test score</td>
-<td>Integer</td>
-<td>Stores a whole number</td>
-</tr>
-<tr>
-<td>Product price</td>
-<td>Real</td>
-<td>Stores a decimal number</td>
-</tr>
-<tr>
-<td>Login successful</td>
-<td>Boolean</td>
-<td>Stores true or false</td>
-</tr>
-<tr>
-<td>List of marks</td>
-<td>Array of integers</td>
-<td>Stores several related values</td>
-</tr>
-<tr>
-<td>Customer details</td>
-<td>Record</td>
-<td>Stores different fields about one item</td>
-</tr>
-</tbody>
-</table>
-<div class="admonition tip">
-<p class="admonition-title">Exam Tip</p>
-<p>When asked to create a design, start with the <strong>top-level design</strong> first.</p>
-<p>Then add:</p>
-<ul>
-<li>data flow</li>
-<li>refinements</li>
-<li>suitable data types and structures</li>
-</ul>
-<p>Building the design in this order makes it easier to ensure all functional requirements have been covered.</p>
-</div>
-<h2 id="summary">Summary</h2>
-<p>Design turns the analysis into a clear plan for how the program will be built.</p>
-<p>A good Higher design should show:</p>
-<ul>
-<li>the main modules in the solution</li>
-<li>the data that flows in and out of each module</li>
-<li>refinements for modules that need more detail</li>
-<li>suitable data types and data structures</li>
-<li>a clear user-interface design, where appropriate</li>
-</ul>
-<p>By the end of the design stage, another programmer should be able to understand what the solution will do, how it is split into modules, and what data must move between those modules.</p>
+  <h1>Test</h1>
+
+<p><a class="md-button md-button--primary" href="/National-5-Teacher-Notes/slides/">Open Slides</a></p>
 
 
 

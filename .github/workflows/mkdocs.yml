@@ -48,24 +48,27 @@ jobs:
       # SLIDEV
       # -------------------------
 
+      # -------------------------
+      # SLIDEV
+      # -------------------------
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: test/package-lock.json
+          cache-dependency-path: slides/package-lock.json
 
       - name: Install Slidev dependencies
-        working-directory: test
+        working-directory: slides
         run: npm ci
 
       - name: Build Slidev presentation
-        working-directory: test
+        working-directory: slides
         run: |
           npm run build -- \
-            --base /National-5-Teacher-Notes/slides/test/ \
-            --out ../site/slides/test
-
+            --base /National-5-Teacher-Notes/slides/ \
+            --out ../site/slides
       # -------------------------
       # DEPLOY
       # -------------------------
