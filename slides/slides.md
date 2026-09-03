@@ -4,25 +4,74 @@ background: white
 title: Understanding Slidev Markdown
 ---
 
-# Core Slidev Markdown syntax
+# Core Slidev Markdown syntax 
 
 This presentation explains what each line does in plain English.
 
+<Toc :minDepth="1" :maxDepth="1" />
+
+```python
+print("Hello")
+```
+
+<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="342" color="#953" width="2" arrowSize="1" />
+
+<v-clicks>
+
+- First point
+- Second point
+- Third point
+- Fourth point
+
+</v-clicks>
+
+
+<!-- Footer -->
+
+[Learn more](https://sli.dev/features/line-highlighting)
+
+
+<div class="absolute bottom-6 left-8">
+
+[Learn more](https://sli.dev/features/line-highlighting)
+
+</div>
 ---
 
-## Slide separator
+# Magic Move Demo
 
-```md
-# Slide 1
+````md magic-move {lines: true}
+```python {all|2|all}
+name = "Ada"
+age = 12
+next_age = age + 1
+message = f"{name} is {age} now and will be {next_age} next year."
+print(message)
+```
+````
 
-Content for the first slide.
+<v-click>
+
+This shows up when you press <kbd>space</kbd> or <kbd>right</kbd>, or click outside the slide on the right.
+
+```html
+<div v-click>This shows up when you trigger a click animation.</div>
+```
+
+</v-click>
+
+
+Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
+
+```python {monaco-run}{autorun:false}
+
+```
 
 ---
 
 # Slide 2
 
 Content for the second slide.
-```
 
 **Line-by-line explanation**
 
@@ -33,6 +82,28 @@ Content for the second slide.
 - `# Slide 2` creates a large heading on the second slide.
 - `Content for the second slide.` is ordinary text shown on the second slide.
 
+<table>
+  <thead>
+    <tr>
+      <th>Denary</th>
+      <th>Binary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5</td>
+      <td v-click>0101</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td v-click>1001</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td v-click>1100</td>
+    </tr>
+  </tbody>
+</table>
 ---
 
 ## Presentation settings (headmatter)
