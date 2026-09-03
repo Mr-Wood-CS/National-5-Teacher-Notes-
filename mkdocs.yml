@@ -172,4 +172,7 @@ copyright: Copyright &copy; 2025 Pixel&Wood Computer Science Tuition
 
 extra_css:
   - Styles/extra.css
+
+extra_javascript:
+  - Javascripts/external-links.js
     
