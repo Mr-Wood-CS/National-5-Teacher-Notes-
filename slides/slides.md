@@ -1,9 +1,7 @@
-~~~md
 ---
 layout: default
 background: white
 ---
-~~~
 
 # 1. Core Slidev Markdown syntax
 
