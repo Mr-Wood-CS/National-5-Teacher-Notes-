@@ -2,7 +2,7 @@ site_name: National 5 Computer Science
 
 nav:
   - Home: 'index.md'
-  - test: 'https://mr-wood-cs.github.io/National-5-Teacher-Notes/slides/'
+  - test: https://mr-wood-cs.github.io/National-5-Teacher-Notes/slides/
   - Software Design and Development:
     - Development Methodologies: '01-sdd/1.1-development-methodologies/1.1-development-methodologies.md'
     - Analysis:
