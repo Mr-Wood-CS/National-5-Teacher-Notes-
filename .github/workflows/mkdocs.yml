@@ -67,7 +67,7 @@ jobs:
         working-directory: slides
         run: |
           npm run build -- \
-            --base /National-5-Teacher-Notes/slides/ \
+            --base /National-5-Teacher-Notes-/slides/ \
             --out ../site/slides
 
       - name: Check built files
