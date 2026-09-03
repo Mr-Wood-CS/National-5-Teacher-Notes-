@@ -69,6 +69,11 @@ jobs:
           npm run build -- \
             --base /National-5-Teacher-Notes/slides/ \
             --out ../site/slides
+
+      - name: Check built files
+        run: |
+          echo "===== SITE CONTENTS ====="
+          find site -maxdepth 3 -type f | sort
       # -------------------------
       # DEPLOY
       # -------------------------
