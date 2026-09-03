@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Quiz Scores wireframe</title>
+  <desc id="desc">A simple wireframe with fields for pupil name, two scores, a calculate button, and an average score output.</desc>
+  <rect x="90" y="60" width="460" height="360" fill="#fff" stroke="#111" stroke-width="3"/>
+  <text x="320" y="105" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#111">Quiz Scores</text>
+  <line x1="90" y1="130" x2="550" y2="130" stroke="#111" stroke-width="3"/>
+
+  <text x="135" y="180" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#111">Pupil name:</text>
+  <rect x="285" y="158" width="210" height="34" fill="#fff" stroke="#111" stroke-width="2"/>
+
+  <text x="135" y="230" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#111">Score 1:</text>
+  <rect x="285" y="208" width="210" height="34" fill="#fff" stroke="#111" stroke-width="2"/>
+
+  <text x="135" y="280" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#111">Score 2:</text>
+  <rect x="285" y="258" width="210" height="34" fill="#fff" stroke="#111" stroke-width="2"/>
+
+  <rect x="135" y="315" width="130" height="42" fill="#eee" stroke="#111" stroke-width="2"/>
+  <text x="200" y="343" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#111">Calculate</text>
+
+  <text x="135" y="390" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#111">Average score:</text>
+  <rect x="285" y="368" width="210" height="34" fill="#fff" stroke="#111" stroke-width="2"/>
+</svg>

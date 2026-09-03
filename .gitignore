@@ -4,3 +4,6 @@
 # Local Python environments and runtime session files
 .venv/
 :memory:.ses
+
+node_modules/
+dist/
